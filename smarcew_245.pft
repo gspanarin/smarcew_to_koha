@@ -9,7 +9,7 @@ if v200^u:'2' then '10'else'00'fi,
 if a(v46^l)then":^b"d461^e else":"d461^e fi 
 
 v461^e 
-if s(v461^x,v461^b,v461^f)<>''then'/^c',&unifor('S1')fi,
+if s(v461^x,v461^b,v461^f)<>''then'^c',&unifor('S1')fi,
 if v461^f:&unifor('E1'v461^x)then 
     v461^b|;| 
 else 

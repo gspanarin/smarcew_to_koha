@@ -1,4 +1,4 @@
-(
+(if p(v225^a) then 
     | 0|d225,
     |^a|v225^a,
     |:|v225^e,
@@ -9,7 +9,7 @@
     if p(v225^k) then |,^p|v225^l else |.^p|v225^l fi,
     |,^x|v225^x,
     |; ^v|v225^v
-/)
+fi/)
 (if p(v46)then 
     | 0^a|v46^a,
     |; ^v|v46^v 

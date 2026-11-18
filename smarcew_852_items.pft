@@ -7,9 +7,9 @@
     '  '
     &uf('+7w9101#'&uf('ksmarcew_mhr.mnu!'&uf('+8ex64,trim,'&uf('q' &uf('ag910^d#1'))))),
     '^a'
-    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'Õ¡' fi ,
+    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'Õ¿' fi ,
     '^b'
-    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'Õ¡' fi ,
+    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'Õ¿' fi ,
 
     if &uf('ag910^b#1') <> '' then '^i'&uf('ag910^b#1') fi,
 
