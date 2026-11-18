@@ -1,0 +1,13 @@
+&uf('+7w1#'
+    &uf('ksmarcew_hd.mnu!'v900^c)/
+    &uf('ksmarcew_hd.mnu!'v900^2)/
+    &uf('ksmarcew_hd.mnu!'v900^3)/
+    &uf('ksmarcew_hd.mnu!'v900^4)/
+    &uf('ksmarcew_hd.mnu!'v900^5)/
+    &uf('ksmarcew_hd.mnu!'v900^6)/
+    &uf('ksmarcew_hd.mnu!'v900^7)/
+),
+
+(if g1 <> '' then
+    |#7^a|g1
+fi/)

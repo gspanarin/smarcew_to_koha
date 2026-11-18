@@ -1,0 +1,30 @@
+'  ^a'
+if p(v900^b) then 
+    if '!03!05!04!07!':s('!'v900^b'!') then 
+        'BKS^bBK'
+    else 
+        if '!08!09!10!12!16!17!':s('!'v900^b'!') then 
+            'AR^bAR'
+        else 
+            if p(v463) then 
+                'AR^bAR'
+            fi,
+        fi,
+    fi,
+else 
+    if v920 = 'PAZK' or v920 = 'SPEC' or v920 = 'PVK' then 
+        'BKS^bBK'
+    else
+        if v920 = 'ASP' then 
+            'AR^bAR'
+        else 
+            if v920 = 'J' then 
+                'SER^bCR'
+            else 
+            
+            fi,
+        fi,
+    fi,
+fi,
+
+'^c'&uf('+d')'/'v903,

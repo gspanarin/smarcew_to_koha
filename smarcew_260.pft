@@ -1,0 +1,25 @@
+if v920.1 = 'A' then 
+else 
+    '  ',
+    "^a"d210^a
+    (|^a|+v210^a,|^a|v210^x,|^a|v210^y,|^b|v210^c),
+    
+    if p(v210^a) then 
+    else 
+        "^a"d461^d,
+        (if p(v461) then 
+            |;^a|+v461^d,
+            if &unifor('Kjzk.mnu|'&unifor('Av101#1')) <> '' or  &unifor('Av101#1') = '' then |^a¡.Ï.|n461^d else |^aS.l.|n461^d fi,
+            |:^b|v461^g 
+            if &unifor('Kjzk.mnu|'&unifor('Av101#1')) <> '' or  &unifor('Av101#1') = '' then else |:^bS.n.|n461^g fi, 
+        fi),
+        if a(v461) then 
+            if &unifor('Kjzk.mnu|'&unifor('Av101#1')) <> '' or  &unifor('Av101#1') = '' then '^a¡.Ï.' else '^aS.l.' fi,
+        fi 
+    fi,
+    if val(v210^d) > 0 then 
+        |^c|v210^d,
+    fi,
+    if a(v210^d) then |,^c|v461^h fi,
+    /*if &unifor('Av920#1') = 'J' then '-' fi, 
+fi

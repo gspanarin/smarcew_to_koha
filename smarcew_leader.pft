@@ -1,0 +1,58 @@
+/*05 - Record status
+'n',
+/*06 - Type of record
+if s(v900v110) : '^tl' then 
+    'm' 
+else 
+    if s(v900,v110) : '^tm' then 
+        'o' 
+    else 
+        if 'qwertyuiopasdfghjklzxcvbnm':v900^t.1 then 
+            v900^t.1,
+        else 
+             if 'qwertyuiopasdfghjklzxcvbnm':v110^t then 
+                v110^t.1
+             else 
+                  'a'
+             fi,
+        fi, 
+    fi, 
+fi,
+/*07 - Bibliographic level
+if v900^b : '05' or v900^b : '03' or v900^b : '04' or v900^b : '07' then 
+    'm' 
+else 
+    if '08 09 10 12 16 17' : v900^b then 
+        'b' 
+    else 
+        if val(v900^b) > 08 then 
+            'a' 
+        else 
+            's' 
+        fi 
+    fi 
+fi
+/*08 - Type of control
+' '
+/*09 - Character coding scheme
+'a'
+/*10 - Indicator count
+'2'
+/*11 - Subfield code count
+'2'
+/*12-16 - Base address of data
+'     '
+/*17 - Encoding level
+'u'
+/*18 - Descriptive cataloging form
+'#'
+/*19 - Multipart resource record level
+'#'
+/*20 - Length of the length-of-field portion
+'4'
+/*21 - Length of the starting-character-position portion
+'5'
+/*22 - Length of the implementation-defined portion
+'0'
+/*23 - Undefined
+'0'

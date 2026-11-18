@@ -1,0 +1,337 @@
+'  ^a'
+&uf('+7w1#'
+v463^c
+v200^a,
+v200^b,
+v200^e,
+v700^a,
+v700^b,
+v700^g,
+(v701^a,v701^b,v701^g/)
+(v702^a,v702^b,v702^g/)
+v225^a,
+v300
+),
+
+&uf('+7w101#'
+    if &uf('av101#1') = 'rus' and (g1:'і' or g1:'ї' or g1:'є' or g1:'ґ') then 
+        'ukr'
+    else 
+        if &uf('av101#1') = 'ukr' and (g1:'э' or g1:'ъ' or g1:'ы') then 
+            'rus'
+        else
+            if &uf('kjz.mnu!'&uf('av101#1')) <> '' then  &uf('av101#1') else 'ukr' fi
+        fi,
+    fi,
+)
+
+&uf('+7w102#'
+    if &uf('kstr.mnu!'&uf('av102#1')) <> '' then  &uf('av102#1') else 'UA' fi
+),
+
+/*================================
+/* 00 - 05
+if &uf('av907^a*2.6#1') <> '' then 
+   if val(&uf('av907^a.4#1')) > 1000 and val(&uf('av907^a.4#1')) < 2100 then &uf('av907^a*2.2#1') else '??' fi, 
+   if val(&uf('av907^a*4.2#1')) > 0 and val(&uf('av907^a*4.2#1')) < 13 then &uf('av907^a*4.2#1') else '??' fi,   
+   if val(&uf('av907^a*6.2#1')) > 0 and val(&uf('av907^a*6.2#1')) < 32 then &uf('av907^a*6.2#1') else '??' fi,
+else 
+     '??????',
+fi,
+
+if v920 = 'J' then
+    /* 07 
+    if p(v210^e)then 
+        'd'
+        if val(&uf('av210^d.4#1')) > 1000 and  val(&uf('av210^d.4#1')) < 2030 then &uf('av210^d.4#1') else '    ' fi  ,           "    "n210^d,v210^e 
+    else 
+        'c'
+        if val(&uf('av210^d.4#1')) > 1000 and  val(&uf('av210^d.4#1')) < 2030 then &uf('av210^d.4#1') else '    ' fi,"    "n210^d,
+    fi,
+else  
+    /*07  
+    if'05 03 ':v900^b then 
+        's'
+    else 
+        'u'
+    fi,  
+    /* 07 - 10
+    if val(&uf('av210^d.4#1')) > 1000 and  val(&uf('av210^d.4#1')) < 2030 then 
+       &uf('av210^d.4#1') 
+    else            
+       if v920.1 : 'A' then 
+          f(rmin(v463^j|;|),0,0)
+       else 
+          '    '
+       fi,
+    fi,
+    '####'
+fi,              
+/* 15-17 - Place of publication, production, or execution
+&unifor('Ksmarcew_LS.mnu|'g102),
+if g102 = '' then 'ua 'fi,
+      
+if v135 : '^x0' then 
+    (if v135 : '^x0' then 
+        &unifor("Kperus.mnu|"v110^d),
+        if &unifor("Kperus.mnu|"v110^d) = '' then 
+            'u'
+        fi,
+        &unifor("KLR.mnu"v110^e),
+        "u"n110^e,
+        '      'v135^a*1.1,
+        " "n135^a'        '
+    fi),
+    
+    &unifor('Ag101#1'),
+    "ukr"n101' d'
+fi,      
+
+          
+if s(v115v915v916):'^x0'then  
+    (if v115 : '^x0' then 
+        v115^b.3,
+        "   "n115^b,
+        '            ',
+        'v',v115^h*1.1,
+        " "n115^h 
+    fi),      
+    (if v915 : '^x0' then 
+        '               '
+        if v915^g*1.1 : 's' or v915^g*1.1 : 't' then 
+            v915^g*1.1 
+        else 
+            'z'
+        fi,
+    ' '
+    fi),
+    (if v916 : '^x0' then 
+        v916^b.3,
+        "   "n916^b,
+        '            ',
+        'm',
+        v916^h*1.1,
+        " "n916^h 
+    fi),
+    &unifor('Av101#1'),
+    if g101 = '' then 'ukr'fi,' d' 
+fi,         
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         
+
+              
+
+if s(v125v126) : '^x0' and a(v135) then 
+    (if v125 : '^x0' then 
+        if v125^e*4 = ' ' then 
+            v125^e*2.2,
+        else 
+            v125^e*3.2 
+        fi,
+        "  "n125^e,v125^c*1.1," "n125^c 
+    else 
+        '   '
+    fi)  
+    '   ',
+    (if v126 : '^x0' then 
+        v126^h*1.1," "n126^h 
+    else 
+        ' '
+    fi)
+    '     ',
+    (if v125 : '^x0' then 
+        v125^b*1.1," "n125^b 
+    fi)
+    '    ',
+    &unifor('Ag101#1'),
+    if g101 = '' then 'ukr'fi,' d'
+fi,
+
+
+          
+
+
+
+
+
+if s(v115v915v916v125v126v135v123) : '^x0' then 
+else           
+    if v920 = 'J' then 
+        &unifor("Kperus.mnu|"v110^d),
+        if &unifor("Kperus.mnu|"v110^d)=''then 
+            'u'
+        fi,
+        &unifor("KLR.mnu|"v110^e),
+        "u"n110^e' '&unifor("KLT.mnu|"v110^b),
+        " "n110^b' '&unifor("Kfx.mnu|"v106^a),
+        " "n106^a,&unifor("KLM.mnu|"v110^f),
+        " "n110^f,&unifor("KLM.mnu|"v110^g),
+        " "n110^g,
+        if v110^g=''then 
+            '   '
+        else 
+            &unifor("KLM.mnu|"v110^g),
+            if v110^k=''then 
+                '  '
+            else 
+                &unifor("KLM.mnu|"v110^k),
+                if v110^l=''then 
+                    ' '
+                else 
+                    &unifor("KLM.mnu|"v110^l),
+                fi,
+            fi,
+        fi,
+        ,v110^h,
+        if a(v110^h)then 
+            if p(v710)then 
+                '1'
+            else 
+                '0'
+            fi,
+        fi,
+        '   ',v919^G.1,
+        if v919^g=''then 
+            if &unifor('Kjzk.mnu|'v101)<>'' or a(v101)then 
+                'c'
+            else 
+                'b'
+            fi,
+        fi,
+        '1'                  
+    else                     
+        if v920.1:'A'then 
+            '                 '
+        else 
+            /*=================================
+            /*==============  /18-21 Ілюстрації
+            if s(v215^c,v215^0,v215^7,v215^8)=''then 
+                '####'
+            else 
+                if v215^c:'-'then 
+                    if 'qwertyuiopasdfghjklzxcvbnm':v215^c.1 then v215^c.1 else '#' fi,
+                    if 'qwertyuiopasdfghjklzxcvbnm':v215^0.1 then v215^0.1 else '#' fi,
+                    if 'qwertyuiopasdfghjklzxcvbnm':v215^7.1 then v215^7.1 else '#' fi,
+                    if 'qwertyuiopasdfghjklzxcvbnm':v215^8.1 then v215^8.1 else '#' fi, 
+                else 
+                    'a###'
+                fi,
+            fi,   
+            
+            /*=================================
+            /*==============  /22 Цільове призначення/аудиторія
+            if s(v900^x,v900^y,v900^9):'a'then 
+                'j'
+            else 
+                '#'
+            fi,     
+            
+            /*=========================================
+            /*============= /23 Форма примірника    
+            if 'qwertyuiopasdfghjklzxcvbnm':v106^a.1 then v106^a.1 else ' ' fi, 
+
+            
+            
+            /*=======================================
+            /*===========  /24-27 Характер змісту
+            if 'z':&unifor("Ksmarcew_lh.mnu|"v900^c) or &unifor("Ksmarcew_LH.mnu|"v900^c)=''then '#' else  &unifor("Ksmarcew_LH.mnu|"v900^c) fi,
+            if 'z':&unifor("Ksmarcew_LH.mnu|"v900^2) or &unifor("Ksmarcew_LH.mnu|"v900^2)=''then '#' else  &unifor("Ksmarcew_LH.mnu|"v900^2) fi,
+            if 'z':&unifor("Ksmarcew_LH.mnu|"v900^3) or &unifor("Ksmarcew_LH.mnu|"v900^3)=''then '#' else  &unifor("Ksmarcew_LH.mnu|"v900^3) fi,
+            if 'z':&unifor("Ksmarcew_LH.mnu|"v900^4) or &unifor("Ksmarcew_LH.mnu|"v900^4)=''then '#' else  &unifor("Ksmarcew_LH.mnu|"v900^4) fi,
+            
+            
+            
+            /* =====================================
+            /* =================== /28 Урядова публікація
+            if v920:'U' or 'n68':v900^c or 'n68':v900^2 or 'n68':v900^3 or 'n68':v900^4  then 'f' else '#' fi,
+            
+            /* =====================================
+            /* ===================/29 Публікація конференції
+            if s(v710v972):'^f'then '1' else '0' fi,
+            
+            /* =====================================
+            /* =================== /30 Ювілейне видання
+            '|'
+            /* =====================================
+            /* ===================/31 Покажчик
+            '|'
+            /* =====================================
+            /* ===================/32 Не визначено
+            ' '
+            
+
+            /* =====================================
+            /* ===================/33 Літературна форма
+            if v900^c:'11'then 
+                '1'
+            else 
+                '0'
+            fi,
+            
+            /* =====================================
+            /* ===================/34 Біографія
+            if v900^c:'91'then 
+                v900^c*2 
+            else 
+                if v900^2:'91'then 
+                    v900^2*2.1 
+                else 
+                    if v900^3:'91'then 
+                        v900^3*2.1 
+                    else 
+                        if v900^4:'91'then 
+                            v900^4*2.1 
+                        else 
+                            '#'
+                        fi,
+                    fi,
+                fi,
+            fi,
+            
+            
+            
+            
+            
+        fi,
+    fi,
+    &unifor('Ag101#1'),
+    if g101 = '' then 'ukr'fi,' d'
+fi,       
+
+     
+  
+if v123:'^X0'then 
+    '       '
+    if v123^a.1:'c'then 
+        'd'
+    else 
+        'a'
+    fi,
+    '     0   ' &unifor('Av101#1'),"rus"n101' d'
+fi

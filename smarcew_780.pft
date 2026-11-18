@@ -1,0 +1,16 @@
+(if p(v430) then 
+    '0'
+    if '30 U ':v430^z or a(v430^z) then 
+        '0'
+    else 
+        if v430^z : '2' then '2' else
+        if v430^z : '4' then '5' else 
+        if v430^z : '5' then '6' else 
+        if v430^z : '6' then '4' else
+        if v430^z : '7' then '7' else
+            '0'
+        fi, fi, fi, fi, fi,
+    fi,
+    |^t|v430^a,
+    |^x|v430^x 
+fi/)/

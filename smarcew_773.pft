@@ -1,0 +1,61 @@
+(
+|0 |d463,
+|^a|v963^x,
+|,|v963^y,
+|^a|v963^b,
+if v463<> '' then 
+   '^t'
+   if v463^c = '' and &uf('av463^c#1') <> '' then 
+      &uf('av463^c#1')
+   else 
+      v463^c
+   fi,
+    
+   /*'. - '
+   /*v463^j
+   /*|. - |v463^v,
+   
+   if s(v463^jv463^v,v463^h,v463^k) <> '' then 
+      '^g'
+      v463^j|. - |,
+      v463^v,
+      |: |v463^a,
+      if v463^v <> '' and v463^h <> '' then ', ' fi,
+      v463^h,
+      |: |v463^i,
+      if v463^h <> '' and v463^k <> '' then ', ' fi,
+      v463^k,
+      |: |v463^l,                                              
+   fi,
+ 
+   if v463^s <> '' then
+      '^q' 
+      v463^1, |Ñ. |n463^1,
+      v463^s 
+   fi, 
+fi,
+|^K|v963^e,
+|/|v963^f,
+|^b|v963^p,
+|^d|v463^d,
+|: |v463^g, 
+
+if a(v463^d)then 
+    |^d|d463,
+    v463^j,
+    if v463^j = '' then 
+        &unifor(|Av463^j#1|d463) 
+    fi,
+else 
+    |.- |v463^j,
+    if v463^j = '' then 
+        &unifor(|Av463^j#1|d463) 
+    fi,
+fi,
+
+|^k|v963^a,
+|/|v963^o,
+|; |v963^v,
+|; ^x|v963^i,
+|^w|v463^w
+/)

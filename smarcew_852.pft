@@ -1,0 +1,25 @@
+&uf('+7w3#1'),
+&uf('+7w942#'
+   if v900^T = 'l' then 'CF' else 
+   if v900^T = 'e' then 'MP' else 
+   if v900^T = 'g3' then 'VM' else   
+   if v900^T = 'j' then 'MU' else    
+       if v920='J' then 
+           'JOURNAL'
+       fi,
+       if v920='ASP' then 
+           'ARTICLE'
+       fi,
+       if v920='PAZK' or v920='SPEC' then 
+           'BK'
+       fi,
+   fi fi fi fi,
+),
+
+if '!J!ASP!AUNTD!' : s('!'v920'!') then 
+else  
+    (if p(v910) then 
+        &uf('+7w910#'v910),
+        &uf('6smarcew_852_items'),
+    fi)
+fi,

@@ -1,0 +1,22 @@
+if v700^l : '1' then 
+    "0 "d700 
+else 
+    "1 "d700 
+fi,
+if p(v700^a) then 
+    '^a'
+    if v700^a:'<' and v700^a:'=' then 
+        &uf('+s1'v700^a)
+    else 
+        v700^a,
+    fi,
+fi,
+", "v700^b,
+"^b"v700^d,
+"^c"v700^1,
+"^c"v700^c,
+"^d"v700^f,
+"^q"v700^g,
+"^eавтор"d700,
+"^u"v700^p,
+if a(v700) then "1 ^eавтор^a"v461^x fi,

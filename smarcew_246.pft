@@ -1,0 +1,27 @@
+(if p(v517) then 
+    if v517^u:'2' then |1|d517 else |0|d517 fi, 
+    if v517^t:'512' then 
+        |4^a|v517^a 
+    else 
+        if v517^t : '513' then 
+            |5^a|v517^a 
+        else 
+             if v517^t : '515' then 
+                 |7^a|v517^a 
+             else 
+                 if v517^t : '516' then 
+                     |8^a|v517^a 
+                 else 
+                     '0^a'v517^a'^t'v517^t 
+                 fi 
+             fi 
+        fi 
+    fi 
+fi/),
+
+(if p(v46) then 
+    if v46^t : '512' then |14^a|v46^r fi/
+    if v46^t : '513' then |15^a|v46^r fi/
+    if v46^t : '515' then |17^a|v46^r fi/
+    if v46^t : '516' then |18^a|v46^r fi 
+fi/)/

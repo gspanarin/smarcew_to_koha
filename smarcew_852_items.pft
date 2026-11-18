@@ -1,0 +1,74 @@
+
+/*&uf('+7w910#'  &uf('av910#1') ), 
+&uf('+7w1#' if val(g910^1) < 1 then '1' else g910^1 fi ) ,
+&uf('+7w2#' if val(g910^1) < 1 then '1' else g910^1 fi ) ,
+
+(if val(&uf('ag1#1')) > 0 then  
+    '  '
+    &uf('+7w9101#'&uf('ksmarcew_mhr.mnu!'&uf('+8ex64,trim,'&uf('q' &uf('ag910^d#1'))))),
+    '^a'
+    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'ма' fi ,
+    '^b'
+    if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'ма' fi ,
+
+    if &uf('ag910^b#1') <> '' then '^i'&uf('ag910^b#1') fi,
+
+    '^d'
+    if &uf('ag910^c#1') <> '' and 
+    val(&uf('ag910^c.4#1')) > 1900 and val(&uf('ag910^c.4#1')) < 2030 and 
+    val(&uf('ag910^c*4.2#1')) > 0 and val(&uf('ag910^c*4.2#1')) < 13 and 
+    val(&uf('ag910^c*6#1')) > 0 and val(&uf('ag910^c*6#1')) < 32 then 
+       &uf('ag910^c.4#1')'-'&uf('ag910^c*4.2#1')'-'&uf('ag910^c*6#1'), 
+    else 
+         &uf('30')'-'&uf('31')'-'&uf('32') 
+    fi,
+
+    if &uf('ag910^f#1') <> '' then 
+        '^E'&uf('dcmpl,!KOR='&uf('ag910^f#1')'!,v81^a')
+    fi,    
+    if &uf('ag910^y#1') <> '' then '^C'&uf('ag910^y#1') fi,
+    if &uf('ag910^y#1') <> '' then '^A'&uf('ag910^u#1') fi,
+    if &uf('ag910^y#1') <> '' then '^8'&uf('ag910^q#1') fi,
+
+    if val(&uf('ag910^e#1')) > 0 then 
+        '^g'f(val(&uf('ag910^e#1')),0,2)
+    else 
+         if val(&uf('av10^d#1')) > 0 then 
+             '^g'f(val(&uf('av10^d#1')),0,2)
+         fi,
+    fi,
+
+    '^y'&uf('ag942#1'),
+    if &uf('ag910^a#1') = '6' then 
+        '^03',
+        if &uf('ag910^v#1') <> '' then '^C' &uf('ag910^v#1') fi,
+    fi,
+    if &uf('+8ex64,trim,'&uf('ag910^h#1')) <> '' then 
+       '^p'
+       &uf('+8ex64,trim,'&uf('ag910^h#1'))
+       if val(&uf('ag2#1'))>1 then 
+          '-'
+          &uf('ag3#1'),&uf('+7w3#'f(rsum(&uf('ag3#1'),';1'),0,0))
+       fi 
+    fi,         
+
+    '^o'&uf('ag910^j#1'),           
+    if &uf('ag910^r#1') = '' then  
+
+       if &uf('av906^*#1') <> '' then 
+          &uf('av906^*#1') 
+       else 
+            if &uf('av675^*#1') <> '' then
+               &uf('av675^*#1')        
+            else 
+               &uf('av621^*#1'),
+            fi,
+       fi,   
+       ' / '  
+       &uf('av908#1') 
+    fi,     
+
+    &uf('+7w1#'f(val(&uf('ag1#1')) - 1,0,0)),
+else 
+     break,
+fi/)

@@ -1,0 +1,27 @@
+if v10 : '^a' or v461 : '^i' or val(v10^d) > 0 then 
+    (if p(v10) then 
+    
+    |  |d10,
+    |^a|v10^a,
+    
+    if v10^a : ' ' then 
+        '('
+        &unifor('G2 '&unifor('G2-'&unifor('G2-'&unifor('G2-'v10^a))))
+        ')'
+    fi,
+    
+    if a(v10^a) and &unifor(|Av900^b#1|d461^i) : '03' then 
+        |  ^a|v461^i 
+    fi,
+    
+    if val(v10^d) > 0 or &uf('av215^x#1') <> '' then 
+        '^c'
+        f(val(&uf('+98,.'v10^d)),0,2)
+        | |v10^c,
+        if v10^d <> '' and &uf('av215^x#1') <> '' then ', ' fi,
+        if &uf('av215^x#1') <> '' then 'тираж '&uf('av215^x#1') fi,
+    fi
+    
+    fi/) 
+    
+fi

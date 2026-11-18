@@ -1,0 +1,29 @@
+(|  ^a|v215^a,
+if v215^a <> '' then 
+v215^1 
+if p(v215^a) and a(v215^1) then ' ñ.' fi,
+
+if v215^c <> '' then 
+    ':^b'
+    if v215^c*1.1 = '-' then v215^c*2 else v215^c fi,
+fi,
+if v215^0 <> '' then 
+    '; '
+    if v215^0*1.1 = '-' then v215^0*2 else v215^0 fi,
+fi,
+if v215^7 <> '' then 
+    '; '
+    if v215^7*1.1 = '-' then v215^7*2 else v215^7 fi,
+fi,
+if v215^8 <> '' then 
+    '; '
+    if v215^8*1.1 = '-' then v215^8*2 else v215^8 fi,
+fi,
+
+
+"+^c"v215^e,
+v215^2,
+if p(v215^e) and a(v215^2) then ' ñ.' fi,
+"^c"v215^d,
+fi,
+/)

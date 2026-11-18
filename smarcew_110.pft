@@ -1,0 +1,21 @@
+if v920:'PVK' then 
+else 
+     (if p(v710) then 
+         '2 ',"^a"v710^a,
+         "("v710^c")",
+         "^b"v710^b,
+     fi/)
+     
+     (if p(v971) then  
+         '2 ', "^a"v971^b,
+         "^c("v971^e,
+         "/"v971^h,
+         "/"v971^i,
+         if p(v971^e)then":^d"v971^f else"^d("v971^f fi,
+         if s(v971^e,v971^d)<>''then  
+            ":^n"v971^d')'
+         else 
+             "^n("v971^n")"
+         fi,
+     fi/), 
+fi/

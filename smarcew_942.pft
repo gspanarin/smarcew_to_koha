@@ -1,0 +1,17 @@
+'  '
+if v900^T = 'l' then '^cCF' else 
+if v900^T = 'e' then '^cMP' else 
+if v900^T = 'g3' then '^cVM' else   
+if v900^T = 'j' then '^cMU' else    
+    
+    if v920='J' then 
+        '^cJOURNAL'
+    fi,
+    if v920='ASP' then 
+        '^cARTICLE'
+    fi,
+    if v920='PAZK' or v920='SPEC' then 
+        '^cBK'
+    fi,
+    
+fi fi fi fi,

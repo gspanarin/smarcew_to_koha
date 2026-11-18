@@ -1,0 +1,32 @@
+/*(|  ^a|v101/)
+&uf('+7w1#'
+v463^c
+v200^a,
+v200^b,
+v200^e,
+v700^a,
+v700^b,
+v700^g,
+(v701^a,v701^b,v701^g/)
+(v702^a,v702^b,v702^g/)
+v225^a,
+v300
+),
+
+if &uf('av101#1') = 'rus' and (g1:'³' or g1:'¿' or g1:'º' or g1:'´') then 
+    '  ^aukr'
+else 
+    if &uf('av101#1') = 'rus' and (g1:'ý' or g1:'ú' or g1:'û') then 
+        '  ^arus'
+    else
+        '  ^a'&uf('av101#1')
+    fi,
+fi,
+
+&uf('S0'),
+(if v101 <> '' then 
+    if val(&uf('S1A')) = 1 then 
+    else 
+    |^a|v101
+    fi,
+fi)

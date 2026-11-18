@@ -1,0 +1,66 @@
+if v920='NJ' then 
+
+    &uf('+7w1#'
+        if &uf('d,!I='v933'!,v110^b') = 'a' then 'JOURNAL' else 'NEWSPAPER' fi,
+    ),
+
+    if v910^d:',' then 
+        &uf('+7w2#'&uf('q'&uf('+8ex64,trim,'&uf('+8ex64,split,\,'/v910^d)))),
+        (if g2 <> '' then 
+            '  ',
+            &uf('+7w9101#'&uf('ksmarcew_mhr.mnu!'&uf('+8ex64,trim,'&uf('q'g2^d)))),
+            '^a'if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'φα' fi ,
+            '^b'if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'φα' fi ,
+            '^d'
+            if &uf('av910^c#1') <> '' and (val(&uf('3C'&uf('3')'/'&uf('av910^c#1'))) > 0) then 
+                if val(&uf('av910^c.4#1')) > 1991 and val(&uf('av910^c.4#1')) < 2024 then &uf('av910^c.4#1') else '1991' fi,
+                '-'
+                if val(&uf('av910^c*4.2#1')) > 0 and val(&uf('av910^c*4.2#1')) < 13 then &uf('av910^c*4.2#1') else '01' fi,
+                '-'
+                if val(&uf('av910^c*6.2#1')) > 0 and val(&uf('av910^c*6.2#1')) < 32 then &uf('av910^c*6.2#1') else '01' fi, 
+                
+            else &uf('30')'-'&uf('31')'-'&uf('32') fi
+            '^h'&uf('av934#1'),'. - No '&uf('av936#1'),
+            '^y'&uf('ag1#1'),
+            if val(&uf('av910^e#1')) > 0 then 
+                '^g'
+                f(val(&uf('+98,.'&uf('av910^e#1'))),0,2),
+            fi,
+            '^x'&uf('av903#1'),
+            '^z'&uf('av933#1'),
+            if &uf('av910^h#1') <> '' then '^p' &uf('av910^h#1') fi,
+            /*'^o'v910^j,if v910^r = '' then  &uf('av675^*#1'), if &uf('av675^*#1') = '' then &uf('av621^*#1'), if &uf('av906^*#1') = '' then fi, fi, ' / '  &uf('av908#1') fi,
+        fi,/)
+    else 
+        (if p(v910) then 
+            if '4 6' : v910^a then 
+            else 
+                '  ',
+                &uf('+7w9101#'&uf('ksmarcew_mhr.mnu!'&uf('+8ex64,trim,'&uf('q'v910^d)))),
+                '^a'if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'φα' fi ,
+                '^b'if &uf('ag9101#1') <> '' then &uf('ag9101#1') else 'φα' fi ,
+                '^d'
+                if v910^c <> '' then 
+                    if val(v910^c.4) > 1991 and val(v910^c.4) < 2024 then v910^c.4 else '1991' fi,
+                    '-'
+                    if val(v910^c*4.2) > 0 and val(v910^c*4.2) < 13 then v910^c*4.2 else '01' fi, 
+                    '-'
+                    if val(v910^c*6.2) > 0 and val(v910^c*6.2) < 32 then v910^c*6.2 else '01' fi,
+                else 
+                    &uf('30')'-'&uf('31')'-'&uf('32') 
+                fi
+                '^h'&uf('av934#1'),'. - No '&uf('av936#1'),
+                '^y'&uf('ag1#1'),
+                if val(v910^e) > 0 then 
+                    '^g'
+                    f(val(&uf('+98,.'v910^e)),0,2),
+                fi,
+                '^x'&uf('av903#1'),
+                '^z'&uf('av933#1'),
+                |^p|v910^h,
+                /*'^o'v910^j,if v910^r = '' then ref(l('I='v933), &uf('av675^*#1'), if &uf('av675^*#1') = '' then &uf('av621^*#1'), if &uf('av906^*#1') = '' then fi, fi, ' / '  &uf('av908#1')) fi,
+            fi 
+        fi/)
+    fi, 
+fi,
+

@@ -1,0 +1,21 @@
+(if p(v205) then
+    if p(v205^a) then  
+       '  ^a'
+       v205^a,
+       |^b|d205^b,
+       v205^b,
+       | |v205^f,
+    fi,
+fi/)
+
+(if p(v250) then 
+    if v250 = &unifor('Av250#1') then 
+    else 
+         '  ^a'
+         v250^a,
+         |/ |v250^b,
+         | |v250^f, 
+    fi 
+fi)
+    
+if a(v205)then(|  ^a|v461^p/) fi /

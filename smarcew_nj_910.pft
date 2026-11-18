@@ -1,0 +1,33 @@
+if v920:'NJ' or v920:'SPEC' then 
+if p(v910) then 
+'{'
+'"id" : "'&uf('+7w100#'v903),&uf('6opac_json_escape')'", '
+'"pid" : "'&uf('+7w100#'v933),&uf('6opac_json_escape')'", '
+
+'"instance" : ['
+&uf('+7w1#'
+(if p(v910) then 
+'{'
+    '"BARCODE" : "'v910^H'",'
+    '"DATA" : "'v910^C'",'
+    '"ISTOCHNIK" : "'  &uf('+7w100#'if v910^f <> '' then if &uf('dcmpl,!KOR='v910^f'!,v81^a') <> '' then &uf('dcmpl,!KOR='v910^f'!,v81^a') else v910^f fi fi),&uf('6opac_json_escape')       '", ',
+    '"MHR" : "' &uf('ksmarcew_mhr.mnu!'&uf('+8ex64,trim,'v910^d)),  '", ',
+    '"PRICE" : ' if val(v910^e) > 0 then &uf('+98,.'v910^e) else '0' fi,', ',
+    '"STATUSVIBITIYA" : ' if v910^a = '6' then '3' else '0' fi, ', ',
+    '"V903" : "' &uf('+7w100#'&uf('av903#1')),&uf('6opac_json_escape')  '", ',
+    '"V933" : "' &uf('+7w100#'&uf('av933#1')),&uf('6opac_json_escape')  '", ',
+    '"ITYPE" : "' if &uf('d,!I='v933'!,v110^b') = 'a' then 'JOURNAL' else 'NEWSPAPER' fi '",',
+    '"KSU1" : "' &uf('+7w100#'v910^u),&uf('6opac_json_escape') '", ',
+    '"KSU2" : "' &uf('+7w100#'v910^v),&uf('6opac_json_escape') '", ',
+    '"ENUMCHRON" : "' &uf('+7w100#'&uf('av934#1'), if &uf('av935#1') <> '' then '. - Ò. '&uf('av935#1') fi,  if &uf('av936#1') <> '' then '. - ¹. '&uf('av936#1') fi,),&uf('6opac_json_escape') '"',
+'}'    
+fi/)),
+
+
+(g1+|, |)
+
+
+']}'
+
+fi,
+fi,

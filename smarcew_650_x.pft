@@ -1,0 +1,7 @@
+/*&uf('+7w1#<ÀÍ><ÒÏ><ÔÀ>'),
+if &uf('ag1#1') <> '' then 
+   &uf('+7w2#'&uf('+8ex64,split,>'/&uf('ag1#1'))),
+   (if g2 <> '' then 
+       '^x'&uf('ksmarcew_650_x.mnu!'g2*1)          
+   fi)
+fi,

@@ -1,0 +1,6 @@
+(if p(v391) then 
+    '  ^a'
+    v391^a,
+    if v391^g <> '' then ' 'v391^g else ' 'v391^b fi, 
+    if v391^c <> '' then ' (' v391^c ')'fi, 
+fi/)

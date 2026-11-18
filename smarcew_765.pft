@@ -1,0 +1,14 @@
+(if p(v454) then  
+    '0 ',
+    "^t"v454^a,
+    "^b"v454^p,
+    "^a"v454^d,
+    "/^c"v454^d,","v454^e,
+    if s(v454^g,v454^c,v454^h)<>''then'^d'fi 
+    v454^g,
+    if p(v454^g)then":"d454^c fi,
+    v454^c,
+    if s(v454^g,v454^c)<>''then","d454^h fi,
+    v454^h,
+    "^x"v454^i
+fi/)

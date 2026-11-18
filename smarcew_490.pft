@@ -1,0 +1,16 @@
+(
+    | 0|d225,
+    |^a|v225^a,
+    |:|v225^e,
+    |/|v225^f,
+    |.^n|v225^h,
+    if p(v225^h) then |,^p|v225^i else |.^p|v225^i fi,
+    |.^n|v225^k,
+    if p(v225^k) then |,^p|v225^l else |.^p|v225^l fi,
+    |,^x|v225^x,
+    |; ^v|v225^v
+/)
+(if p(v46)then 
+    | 0^a|v46^a,
+    |; ^v|v46^v 
+fi/)/

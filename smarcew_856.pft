@@ -1,0 +1,16 @@
+if s(v230,v337,v135,v951) <> '' or v452^v.1 = 'r' then 
+    (if p(v951) then 
+        if v951^i : 'http' then 
+            '4 ^u'
+        else 
+            if v951^i : 'ftp' then 
+                '1 ^u' 
+            else 
+                '7#^2'
+            fi,
+        fi,
+        v951^i,
+        v951^a,
+        |^y|v951^t 
+    fi/)
+fi/
